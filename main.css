@@ -84,7 +84,7 @@ body{
     padding-top: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    margin-left: 40px;
+    margin-left: 50px;
     color: white;
     height: 42px;
     font-size: 1.2rem;
@@ -143,14 +143,9 @@ hr.light {
     .input{
         width: 450px;
     }
-    .maycugiare{
-        display: none;
-    }
 }
 @media (max-width: 768px){
-    .maycugiare{
-        display: none;
-    }
+
 }
 @media (max-width: 576px){
     .input{

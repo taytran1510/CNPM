@@ -6,10 +6,22 @@ body{
 }
 body ul{
     padding-left: 0px;
+    list-style: none;
 }
 body h1{
     font-size: 1.2rem;
     margin-top: 20px;
+}
+body h3{
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+body a{
+    color: black;
+}
+body a:hover{
+    text-decoration: none;
 }
 .nen{
     width: 100%;
@@ -49,6 +61,29 @@ body h1{
 .samsung-gaming-24inch{
     width: 100%;
     height: 410px;
+    list-style: none;
+}
+.img_li{
+    text-align: center;
+    margin-top: 40px;
+}
+.img_li :hover{
+    margin-top: -10px;
+}
+.thoigian{
+    margin-top: 20px;
+    border: #eeeeee solid 0.1px;
+    text-align: center;
+}
+.tanso{
+    margin-top: 20px;
+    border: #eeeeee solid 0.1px;
+    text-align: center;
+}
+.tien{
+    color: red;
+    margin-top: 20px;
+    text-align: center;
 }
 .asus-gaming-24inch{
     width: 100%;
@@ -59,6 +94,22 @@ body h1{
     height: 410px;
 }
 .samsung-gaming-27inch{
+    width: 100%;
+    height: 410px;
+}
+.asus-tuf-gaming-27inch{
+    width: 100%;
+    height: 410px;
+}
+.LCD-samsung-gaming-27inch{
+    width: 100%;
+    height: 410px;
+}
+.asus-zenscreen{
+    width: 100%;
+    height: 410px;
+}
+.samsung-gaming-32inch{
     width: 100%;
     height: 410px;
 }
