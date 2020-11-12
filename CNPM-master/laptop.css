@@ -1,0 +1,128 @@
+body{
+    background-image: none;
+}
+body ul{
+    padding-left: 0px;
+    list-style: none;
+}
+body h1{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.carousel-slide{
+    background-color: white;
+}
+.carousel-inner img {
+	width: 100%;
+}
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+}
+body h3{
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+body a{
+    color: black;
+}
+body a:hover{
+    text-decoration: none;
+}
+.nen{
+    width: 100%;
+    height: 168px;
+    margin-top: 5px;
+}
+.hang{
+    padding-left: 0px;
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+a.mauchu :hover{
+    color: blue;
+}
+.mauchu{
+    color: black;
+}
+.thunhat{
+    width: 34%;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #eeeeee;
+}
+.thuhai{
+    width: 22%;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #eeeeee;
+}
+.thuba{
+    width: 22%;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #eeeeee;
+}
+.thutu{
+    width: 22%;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #eeeeee;
+}
+.acer-aspire-3-a315{
+    width: 100%;
+    height: 410px;
+    list-style: none;
+}
+.img_li{
+    text-align: left;
+    margin-top: 40px;
+}
+.img_li :hover{
+    margin-top: -10px;
+}
+.thoigian{
+    margin-top: 20px;
+    border: #eeeeee solid 0.1px;
+    text-align: center;
+}
+.tanso{
+    margin-top: 20px;
+    border: #eeeeee solid 0.1px;
+    text-align: center;
+}
+.tien{
+    color: red;
+    margin-top: 20px;
+    text-align: center;
+}
+.hp-pavilion-x360{
+    width: 100%;
+    height: 410px;
+}
+.lenovo-ideapad-s340{
+    width: 100%;
+    height: 410px;
+}
+.lenovo-ideapad-s145-81w8001xvn{
+    width: 100%;
+    height: 410px;
+}
+.lenovo-ideapad-s145{
+    width: 100%;
+    height: 410px;
+}
+.acer-aspire-3-a315{
+    width: 100%;
+    height: 410px;
+}
+.hp-348-g7-i3{
+    width: 100%;
+    height: 410px;
+}
+.dell-inspiron-5593-i5{
+    width: 100%;
+    height: 410px;
+}

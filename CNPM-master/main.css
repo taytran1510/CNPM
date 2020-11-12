@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+html, body {
+	width: 100%;
+    height: 100%;
+    font-family: 'Itim';
+	font-size: 15px;
+    color: #222;
+    background-color: #f0f0f0;
+}
+body{
+    background-image: url(./image/hinhtuyetroi.jpg);
+    width: 100%;
+    height: auto;
+}
+/* phần đầu web */
+.navbar{
+    background-color: #27ae60 !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar li a {
+    color: black !important;
+}
+.navbar li a:hover{
+    color: blue !important;
+}
+/* xử lí các nút đki đnhập */
+.button{
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 48px;
+    padding-top: 5px;
+}
+.button:hover{
+    background-color: white;
+}
+.input{
+    margin-left: 40px;
+    width: 650px;
+    border-radius: 3px;
+}
+.cart{
+    margin-left: 30px;
+    color: white;
+    border-style: solid;
+    padding: 4px 4px;
+    border-radius: 3px;
+    border-width: 1px;
+}
+.cart:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+/* xử lí phần menu xanh */
+.menuxanh{
+    background-color: yellowgreen !important;
+    height: 42px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    margin-left: 30px;
+}
+.menu a{
+    color: black;
+}
+.menu a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+.carousel-inner img {
+	width: 100%;
+}
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+}
+/* xử lí phần menu */
+.chung{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 50px;
+    color: white;
+    height: 42px;
+    font-size: 1.2rem;
+}
+
+.chung:hover{
+    background-color: white;
+}
+/* điện thoại nổi bật */
+.dienthoainoibat{
+    margin-top: 10px;
+    background-color: orangered;
+    height: 645px;
+}
+/* lap top nôi bật */
+.laptopnoibat{
+    margin-top: 10px;
+    background-color:white;
+    height: 432px;
+    display: flex;
+}
+.tieude{
+    display: flex;
+    height: 10%;
+    text-align: center;
+    background-color: orange;
+}
+.chinhmucluc
+{
+    text-align: center;
+    font-size: 20px;
+}
+.longdt{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.mauchu{
+    color: black;
+}
+.mauchu a:hover{
+    color: blue;
+}
+.tong{
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+.tong a:hover{
+    text-decoration: none;
+}
+.lap1{
+    height: 100%;
+    width:34%;
+    float:left;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #eeeeee;
+    text-decoration: none;
+    display: block;
+}
+.lap2{
+    width: 22%;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #eeeeee;
+}
+.lap3{
+    width:22%;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #eeeeee;
+}
+.lap4{
+    width:22%;
+    float:right;
+        border-style: solid;
+    border-width: 0.1px;
+    border-color: #eeeeee;
+}
+.tabletnoibat{
+    margin-top: 10px;
+    background-color: red;
+    height: 380px;
+}
+.phukiengiare{
+    margin-top: 10px;
+    background-color: pink;
+    height: 432px;
+}
+.donghothongminh{
+    margin-top: 10px;
+    background-color: brown;
+    height: 452px;
+}
+footer {
+    margin-top: 5px;
+	background-color: #32ff7e;
+	color: black;
+}
+hr.light {
+	border-top: 1px solid black;
+	width: 75%;
+}
+.light-100 {
+	border-top: 1px solid black;
+	width: 100%;
+}
+
+/* xử lí theo màn hình  */
+@media(max-width:1500){
+    
+}
+
+@media (max-width: 1100px){
+    .input{
+        width: 450px;
+    }
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 576px){
+    .input{
+        display: none;
+    }
+    .menuxanh{
+        display: none;
+    }
+    .submit{
+        display: none;
+    }
+}
