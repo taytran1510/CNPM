@@ -14,6 +14,16 @@ body{
     width: 100%;
     height: auto;
 }
+body ul{
+    list-style: none;
+    padding-left: 0px;
+}
+body h4{
+    font-size: 1.1rem;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 /* phần đầu web */
 .navbar{
     background-color: #27ae60 !important;
@@ -110,16 +120,96 @@ body{
     background-color: red;
     height: 380px;
 }
+/* phụ kiện  */
 .phukiengiare{
     margin-top: 10px;
-    background-color: pink;
+    background-color: white;
     height: 432px;
 }
+.phukiengiare h3{
+    background-color: chartreuse;
+}
+.dsphukien{
+    padding-left: 0px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    height: 91%;
+}
+.thunhat{
+    border: #eeeeee solid 0.1px;
+    width: 25%;
+    height: 100%;
+}
+.img{
+    text-align: center;
+}
+.img a{
+    color: black;
+}
+.img a:hover{
+    text-decoration: none;
+    margin-top: 5px;
+    color: blue;
+}
+.hinhanh{
+    margin-top: 15px;
+}
+.hinhanh:hover{
+    margin-top: 5px;
+}
+.button span{
+    border: #eeeeee solid 0.1px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.money{
+    color: red;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.thuhai{
+    border: #eeeeee solid 0.1px;
+    width: 25%;
+    height: 100%;
+}
+.thuhai .button{
+    margin-top: 26.7px;
+}
+.thuba{
+    border: #eeeeee solid 0.1px;
+    width: 25%;
+    height: 100%;
+}
+.thutu{
+    border: #eeeeee solid 0.1px;
+    width: 25%;
+    height: 100%;
+}
+
+
 .donghothongminh{
     margin-top: 10px;
     background-color: brown;
     height: 452px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     margin-top: 5px;
 	background-color: #32ff7e;
